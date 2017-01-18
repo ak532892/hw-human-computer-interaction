@@ -1,0 +1,25 @@
+﻿已經開始建置於 2017/1/7 上午 09:43:57。
+     1>節點 2 (Build 目標) 上的專案 "C:\Users\User\Desktop\初階影像處理、嵌入式機器人視覺及人機互動\Homework\HW2\Hw2_P76054088_黃子睿_v1\MFCApplication1\MFCApplication1\MFCApplication1.vcxproj"。
+     1>ClCompile:
+         D:\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /D WIN32 /D _WINDOWS /D _DEBUG /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Debug\MFCApplication1.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /Gd /TP /errorReport:prompt MFCApplication1Dlg.cpp
+         MFCApplication1Dlg.cpp
+     1>MFCApplication1Dlg.cpp(277): warning C4244: '=' : 將 'int' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>MFCApplication1Dlg.cpp(278): warning C4244: '=' : 將 'int' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>MFCApplication1Dlg.cpp(401): warning C4244: '=' : 將 'int' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>MFCApplication1Dlg.cpp(402): warning C4244: '=' : 將 'int' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>MFCApplication1Dlg.cpp(530): warning C4244: '=' : 將 'int' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>MFCApplication1Dlg.cpp(531): warning C4244: '=' : 將 'int' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>MFCApplication1Dlg.cpp(642): warning C4244: '=' : 將 'int' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>MFCApplication1Dlg.cpp(643): warning C4244: '=' : 將 'int' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>MFCApplication1Dlg.cpp(764): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
+       Link:
+         D:\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\User\Desktop\初階影像處理、嵌入式機器人視覺及人機互動\Homework\HW2\Hw2_P76054088_黃子睿_v1\MFCApplication1\x64\Debug\MFCApplication1.exe" /INCREMENTAL /NOLOGO opencv_core247d.lib opencv_imgproc247d.lib opencv_highgui247d.lib opencv_ml247d.lib opencv_video247d.lib opencv_features2d247d.lib opencv_calib3d247d.lib opencv_objdetect247d.lib opencv_contrib247d.lib opencv_legacy247d.lib opencv_flann247d.lib opencv_nonfree247d.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"D:\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"C:\Users\User\Desktop\初階影像處理、嵌入式機器人視覺及人機互動\Homework\HW2\Hw2_P76054088_黃子睿_v1\MFCApplication1\x64\Debug\MFCApplication1.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\User\Desktop\初階影像處理、嵌入式機器人視覺及人機互動\Homework\HW2\Hw2_P76054088_黃子睿_v1\MFCApplication1\x64\Debug\MFCApplication1.lib" /MACHINE:X64 x64\Debug\MFCApplication1.res
+         x64\Debug\MFCApplication1.obj
+         x64\Debug\MFCApplication1Dlg.obj
+         x64\Debug\stdafx.obj
+         MFCApplication1.vcxproj -> C:\Users\User\Desktop\初階影像處理、嵌入式機器人視覺及人機互動\Homework\HW2\Hw2_P76054088_黃子睿_v1\MFCApplication1\x64\Debug\MFCApplication1.exe
+     1>專案 "C:\Users\User\Desktop\初階影像處理、嵌入式機器人視覺及人機互動\Homework\HW2\Hw2_P76054088_黃子睿_v1\MFCApplication1\MFCApplication1\MFCApplication1.vcxproj" (Build 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:02.73
