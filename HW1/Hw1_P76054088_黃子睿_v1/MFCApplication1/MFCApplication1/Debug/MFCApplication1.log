@@ -1,0 +1,46 @@
+﻿已經開始建置於 2016/12/3 下午 06:30:51。
+     1>節點 2 (Build 目標) 上的專案 "C:\Users\User\Desktop\初階影像處理、嵌入式機器人視覺及人機互動\Homework\HW1\Hw1_P76054088_黃子睿_v1\MFCApplication1\MFCApplication1\MFCApplication1.vcxproj"。
+     1>ClCompile:
+         D:\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\MFCApplication1.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\MFCApplication1.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt MFCApplication1.cpp MFCApplication1Dlg.cpp
+         MFCApplication1Dlg.cpp
+         MFCApplication1.cpp
+         正在產生程式碼...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /l"0x0404" /IDebug\ /nologo /fo"Debug\MFCApplication1.res" MFCApplication1.rc 
+       Link:
+         D:\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\User\Desktop\初階影像處理、嵌入式機器人視覺及人機互動\Homework\HW1\Hw1_P76054088_黃子睿_v1\MFCApplication1\Debug\MFCApplication1.exe" /INCREMENTAL /NOLOGO opencv_core247d.lib opencv_imgproc247d.lib opencv_highgui247d.lib opencv_ml247d.lib opencv_video247d.lib opencv_features2d247d.lib opencv_calib3d247d.lib opencv_objdetect247d.lib opencv_contrib247d.lib opencv_legacy247d.lib opencv_flann247d.lib opencv_nonfree247d.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"D:\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"C:\Users\User\Desktop\初階影像處理、嵌入式機器人視覺及人機互動\Homework\HW1\Hw1_P76054088_黃子睿_v1\MFCApplication1\Debug\MFCApplication1.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\User\Desktop\初階影像處理、嵌入式機器人視覺及人機互動\Homework\HW1\Hw1_P76054088_黃子睿_v1\MFCApplication1\Debug\MFCApplication1.lib" /MACHINE:X86 Debug\MFCApplication1.res
+         Debug\MFCApplication1.obj
+         Debug\MFCApplication1Dlg.obj
+         Debug\stdafx.obj
+     1>MFCApplication1Dlg.obj : error LNK2019: 無法解析的外部符號 _cvCreateImage 在函式 "public: void __thiscall CMFCApplication1Dlg::OnBnClickedButton5(void)" (?OnBnClickedButton5@CMFCApplication1Dlg@@QAEXXZ) 中被參考
+     1>MFCApplication1Dlg.obj : error LNK2019: 無法解析的外部符號 _cvReleaseImage 在函式 "public: void __thiscall CMFCApplication1Dlg::OnBnClickedButton1(void)" (?OnBnClickedButton1@CMFCApplication1Dlg@@QAEXXZ) 中被參考
+     1>MFCApplication1Dlg.obj : error LNK2019: 無法解析的外部符號 _cvCloneImage 在函式 "public: void __thiscall CMFCApplication1Dlg::OnBnClickedButton5(void)" (?OnBnClickedButton5@CMFCApplication1Dlg@@QAEXXZ) 中被參考
+     1>MFCApplication1Dlg.obj : error LNK2019: 無法解析的外部符號 _cvCreateMat 在函式 "void __cdecl on_mouse6(int,int,int,int,void *)" (?on_mouse6@@YAXHHHHPAX@Z) 中被參考
+     1>MFCApplication1Dlg.obj : error LNK2019: 無法解析的外部符號 _cvGet2D 在函式 "void __cdecl onTrackbar51(int)" (?onTrackbar51@@YAXH@Z) 中被參考
+     1>MFCApplication1Dlg.obj : error LNK2019: 無法解析的外部符號 _cvGetSize 在函式 "public: void __thiscall CMFCApplication1Dlg::OnBnClickedButton5(void)" (?OnBnClickedButton5@CMFCApplication1Dlg@@QAEXXZ) 中被參考
+     1>MFCApplication1Dlg.obj : error LNK2019: 無法解析的外部符號 _cvConvertScaleAbs 在函式 "public: void __thiscall CMFCApplication1Dlg::OnBnClickedButton5(void)" (?OnBnClickedButton5@CMFCApplication1Dlg@@QAEXXZ) 中被參考
+     1>MFCApplication1Dlg.obj : error LNK2019: 無法解析的外部符號 _cvAddWeighted 在函式 "public: void __thiscall CMFCApplication1Dlg::OnBnClickedButton5(void)" (?OnBnClickedButton5@CMFCApplication1Dlg@@QAEXXZ) 中被參考
+     1>MFCApplication1Dlg.obj : error LNK2019: 無法解析的外部符號 _cvCircle 在函式 "void __cdecl on_mouse6(int,int,int,int,void *)" (?on_mouse6@@YAXHHHHPAX@Z) 中被參考
+     1>MFCApplication1Dlg.obj : error LNK2019: 無法解析的外部符號 _cvSmooth 在函式 "public: void __thiscall CMFCApplication1Dlg::OnBnClickedButton5(void)" (?OnBnClickedButton5@CMFCApplication1Dlg@@QAEXXZ) 中被參考
+     1>MFCApplication1Dlg.obj : error LNK2019: 無法解析的外部符號 _cvSobel 在函式 "public: void __thiscall CMFCApplication1Dlg::OnBnClickedButton5(void)" (?OnBnClickedButton5@CMFCApplication1Dlg@@QAEXXZ) 中被參考
+     1>MFCApplication1Dlg.obj : error LNK2019: 無法解析的外部符號 _cvCvtColor 在函式 "public: void __thiscall CMFCApplication1Dlg::OnBnClickedButton5(void)" (?OnBnClickedButton5@CMFCApplication1Dlg@@QAEXXZ) 中被參考
+     1>MFCApplication1Dlg.obj : error LNK2019: 無法解析的外部符號 _cvWarpPerspective 在函式 "void __cdecl on_mouse6(int,int,int,int,void *)" (?on_mouse6@@YAXHHHHPAX@Z) 中被參考
+     1>MFCApplication1Dlg.obj : error LNK2019: 無法解析的外部符號 _cvGetPerspectiveTransform 在函式 "void __cdecl on_mouse6(int,int,int,int,void *)" (?on_mouse6@@YAXHHHHPAX@Z) 中被參考
+     1>MFCApplication1Dlg.obj : error LNK2019: 無法解析的外部符號 _cvThreshold 在函式 "public: void __thiscall CMFCApplication1Dlg::OnBnClickedButton8(void)" (?OnBnClickedButton8@CMFCApplication1Dlg@@QAEXXZ) 中被參考
+     1>MFCApplication1Dlg.obj : error LNK2019: 無法解析的外部符號 _cvAdaptiveThreshold 在函式 "public: void __thiscall CMFCApplication1Dlg::OnBnClickedButton9(void)" (?OnBnClickedButton9@CMFCApplication1Dlg@@QAEXXZ) 中被參考
+     1>MFCApplication1Dlg.obj : error LNK2019: 無法解析的外部符號 _cvNamedWindow 在函式 "public: void __thiscall CMFCApplication1Dlg::OnBnClickedButton1(void)" (?OnBnClickedButton1@CMFCApplication1Dlg@@QAEXXZ) 中被參考
+     1>MFCApplication1Dlg.obj : error LNK2019: 無法解析的外部符號 _cvShowImage 在函式 "public: void __thiscall CMFCApplication1Dlg::OnBnClickedButton1(void)" (?OnBnClickedButton1@CMFCApplication1Dlg@@QAEXXZ) 中被參考
+     1>MFCApplication1Dlg.obj : error LNK2019: 無法解析的外部符號 _cvDestroyWindow 在函式 "public: void __thiscall CMFCApplication1Dlg::OnBnClickedButton1(void)" (?OnBnClickedButton1@CMFCApplication1Dlg@@QAEXXZ) 中被參考
+     1>MFCApplication1Dlg.obj : error LNK2019: 無法解析的外部符號 _cvCreateTrackbar 在函式 "public: void __thiscall CMFCApplication1Dlg::OnBnClickedButton4(void)" (?OnBnClickedButton4@CMFCApplication1Dlg@@QAEXXZ) 中被參考
+     1>MFCApplication1Dlg.obj : error LNK2019: 無法解析的外部符號 _cvSetTrackbarPos 在函式 "public: void __thiscall CMFCApplication1Dlg::OnBnClickedButton5(void)" (?OnBnClickedButton5@CMFCApplication1Dlg@@QAEXXZ) 中被參考
+     1>MFCApplication1Dlg.obj : error LNK2019: 無法解析的外部符號 _cvSetMouseCallback 在函式 "public: void __thiscall CMFCApplication1Dlg::OnBnClickedButton7(void)" (?OnBnClickedButton7@CMFCApplication1Dlg@@QAEXXZ) 中被參考
+     1>MFCApplication1Dlg.obj : error LNK2019: 無法解析的外部符號 _cvLoadImage 在函式 "public: void __thiscall CMFCApplication1Dlg::OnBnClickedButton1(void)" (?OnBnClickedButton1@CMFCApplication1Dlg@@QAEXXZ) 中被參考
+     1>MFCApplication1Dlg.obj : error LNK2019: 無法解析的外部符號 _cvWaitKey 在函式 "public: void __thiscall CMFCApplication1Dlg::OnBnClickedButton1(void)" (?OnBnClickedButton1@CMFCApplication1Dlg@@QAEXXZ) 中被參考
+     1>C:\Users\User\Desktop\初階影像處理、嵌入式機器人視覺及人機互動\Homework\HW1\Hw1_P76054088_黃子睿_v1\MFCApplication1\Debug\MFCApplication1.exe : fatal error LNK1120: 24 個無法解析的外部符號
+     1>專案 "C:\Users\User\Desktop\初階影像處理、嵌入式機器人視覺及人機互動\Homework\HW1\Hw1_P76054088_黃子睿_v1\MFCApplication1\MFCApplication1\MFCApplication1.vcxproj" (Build 目標) 建置完成 -- 失敗。
+
+建置失敗。
+
+經過時間 00:00:08.11
